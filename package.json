@@ -1,0 +1,18 @@
+{
+    "name": "whatsapp_app",
+    "version": "1.0.0",
+    "description": "Una aplicacion que se usara como iframe",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon server/server.js --watch"
+    },
+    "author": "Ruslan Gonzalez",
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.16.4"
+    },
+    "devDependencies": {
+        "nodemon": "^1.18.9"
+    }
+}
